@@ -1,0 +1,38 @@
+.container {
+    text-align: center;
+    margin: 8px auto;
+    padding: 15px;
+    background-color:#754F5B;
+    color:#D7907B;
+    width:60%;
+    border-radius: 8px;;
+  }
+.text-input {
+    height:6em;
+}
+form div {
+    padding: 5px;
+    
+  }
+
+  form button {
+    border-radius:8px;
+    padding:8px;
+    margin:8px;
+  }
+
+
+
+  form button:disabled {
+    background-color: gray;
+    pointer-events:none;
+  }
+
+  form button:hover{
+    background-color:#D7907B;
+  }
+
+  form label {
+    font-weight: bold;
+  }
+  
